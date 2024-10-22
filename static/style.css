@@ -1,0 +1,12 @@
+#title {
+    margin-top: 1rem;
+}
+
+li::marker {
+    content:""
+}
+
+ul{
+    display:flex;
+    gap: 9px
+}
