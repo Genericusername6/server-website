@@ -1,0 +1,22 @@
+<nav>
+    <ul>
+        <li><a href="/anything">un</a></li>
+        <li><a href="/">deux</a></li>
+        <li>vous</li>
+        <li>nous</li>
+        <li>elles</li>
+        <li>ils</li>
+    </ul>
+</nav>
+<marquee direction = right>Le chat est paresseux</marquee>
+<marquee direction = left><img src="/chat.avif" width = 130px ></marquee>
+<marquee id = time>  </marquee>
+<script>
+    function set_clock(){
+        let now = new Date
+        time.innerText = `${now.getHours()}: ${now.getMinutes}: ${now.getSeconds}`
+    }
+    setInterval(
+        set_clock, 1
+    )
+</script>
