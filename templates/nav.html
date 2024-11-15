@@ -8,15 +8,16 @@
         <li>ils</li>
     </ul>
 </nav>
-<marquee direction = right>Le chat est paresseux</marquee>
+<marquee direction = right>Le chat est mort</marquee>
 <marquee direction = left><img src="/chat.avif" width = 130px ></marquee>
 <marquee id = time>  </marquee>
 <script>
     function set_clock(){
         let now = new Date
-        time.innerText = `${now.getHours()}: ${now.getMinutes}: ${now.getSeconds}`
+        time.innerText = `${now.getHours()}: ${now.getMinutes()}: ${now.getSeconds()}`
     }
     setInterval(
         set_clock, 1
     )
 </script>
+<marquee direction = right>L'eglise  est a cote de la maison</marquee>
